@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/Tx.P_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio - texpereira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- menu navbar -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">texpereira</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#aboutme" onclick="seleccionar()">About me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/avatar.png" alt="">
+            </div>
+            <h1>Temilo Pereira</h1>
+            <h2>Analista de Sistemas - Desarrollador WEB/App</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/temilo-pereira/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/texpereira/portfolio"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about me section -->
+    <section id="aboutme" class="aboutme">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p>Hola, soy <span>Temilo Pereira</span>, analista de sistemas con una trayectoria variada,
+                mi pasión por la innovación tecnológica me impulsa a desarrollar soluciones digitales distintivas.
+                Estoy comprometido con la integración de técnicas avanzadas y estrategias perspicaces para fomentar
+                el éxito organizacional y establecer conexiones profesionales significativas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24-11-1987
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +56953560495
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            temilopereira24@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Rancagua, Chile.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--skills section -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="proyecto pagina web para restaurante">
+                    <div class="overlay">
+                        <h3>Diseño Creativo <br> plantilla pagina web para restaurante</h3>
+                        <p>Manejo SEO y RRSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="proyecto pagina web estilo blog">
+                    <div class="overlay">
+                        <h3>Diseño WEB estilo blog con Python y Django</h3>
+                        <p>Para plasmar tus diseños, fotografías, artes.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="proyecto pagina web landpage">
+                    <div class="overlay">
+                        <h3>Diseño WEB para landgpage de tu emprendimiento</h3>
+                        <p>Proyecto realizado para cliente <u>migasandwich.cl</u></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.png" alt="proyecto pagina web con login tipo foro">
+                    <div class="overlay">
+                        <h3>Diseño WEB para foro-blog, con manejo de BD y login</h3>
+                        <p>Ten tu sitio WEB, gestiona tus usuarios</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpeg" alt="imagenes de proyectos en python y java">
+                    <div class="overlay">
+                        <h3>Desarrollo de WEB-Apps</h3>
+                        <p>Programas en Python y JAVA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.png" alt="proyecto web para agencia de viajes, pagina totalmente responsiva">
+                    <div class="overlay">
+                        <h3>Diseño WEB para proyectos</h3>
+                        <p>La identidad de tu marca, para llegar a mas clientes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <div class="contenido-seccion">
+            <h2>Contact</h2>
+            <div class="formulario">
+                <!-- formulario de contacto -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-regular fa-envelope"></i>
+                        <span class="overlay"></span>
+                    </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/temilo-pereira/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/texpereira/portfolio"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-mug-hot"></i></a>
+        </div>
+        <img src="./img/Tx.P_logo.png" class="mx-auto">
+        <br>
+        <small>© 2024 <b>Tx.P.</b><i class="fa-solid fa-bolt-lightning"></i> - Todos los Derechos Reservados.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
